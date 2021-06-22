@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/16583ce1e6.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <div class="container">
+        <div class="buttons">
+            <div class="buttons__title">
+                <h2 style="text-align: center;">First to 5 wins!</h2>
+                <h1 style="text-align: center;">Choose Wisely!</h1>
+            </div>
+            <div class="buttons__options">
+                <button data-choice="paper" class="buttons__option">
+                    <i class="fas fa-hand-paper fa-3x"></i>
+                </button>
+                <button data-choice="rock" class="buttons__option">
+                    <i class="fas fa-hand-rock fa-3x"></i>
+                </button>
+                <button data-choice="scissors" class="buttons__option">
+                    <i class="fas fa-hand-scissors fa-3x"></i>
+                </button>
+            </div>
+        </div>
+        <h2 style="text-align: center;" class="result-text"></h2>
+        <div class="score">
+            <div>
+                <h3 class="score__player">Player won rounds: <span style="font-size: 30px;">0</span> </h3>
+            </div>
+            <div>
+                <h3 class="score__computer">Computer won rounds: <span style="font-size: 30px;">0</span> </h3>
+            </div>
+        </div>
+        <div class="result">
+            <h3 class="result__text"></h3>
+            <button class="btn-reset">
+                <h3>Reset</h3>
+            </button>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

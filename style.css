@@ -1,0 +1,33 @@
+.container {
+  max-width: 70%;
+  margin: auto;
+}
+
+.buttons__options {
+  margin: auto;
+  width: fit-content;
+}
+
+.buttons__option {
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+
+.buttons__option:hover {
+  background-color: rgb(16, 127, 238);
+}
+
+.buttons__option * {
+  padding: 1rem;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+}
+
+.result {
+  width: fit-content;
+  margin: auto;
+  display: none;
+}
